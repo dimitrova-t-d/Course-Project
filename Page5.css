@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Rajdhani', sans-serif;
+}
+.navbar-nav{
+	font-size: 1.5rem;
+	font-family: 'Rajdhani', sans-serif;
+	text-transform: uppercase;
+}
+.btn-lg{
+	font-size: 1.4rem; 
+	color: white;
+  }
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+h3{
+	margin: 20px;
+	font-weight: bold;
+}
+h4{
+	margin: 20px;
+	font-weight: bold;
+}
+#imgone, #imgtwo{
+	float: right;
+	border-width: 2px;
+	border-style: solid;
+	border-color: whitesmoke;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 100%;
+	border-radius: 100px;
+}
+ #imgthree{
+	float: right; 
+	border-width: 2px;
+	border-style: solid;
+	border-color: whitesmoke;
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 100%;
+	border-radius: 100px;  
+}
+
+section{
+	text-align: center;
+}
+.one, .two, .three, .four, .five, .six{
+	font-size: 1.2rem;
+	margin-left: 45px;
+}
+.jumbotron{
+	width: 100%;
+	margin-top: 20px;
+}
+p{
+	text-align: center;
+	font-size: 1.3rem;
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+.content {
+	background-color: #F5F5F5;
+	padding: 20px 30px 30px;
+	margin: 20px;
+	text-align: center;
+}
+.content ul li{
+	list-style: none;
+	font-family: 'Rajdhani', sans-serif;
+	text-transform: uppercase;
+}
+.content ul li a{
+	color: #000;
+	font-size: 1.2rem;
+}
+h5, h6{
+	font-weight: bold;
+}
+.end{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.fa{
+	align-items: center;
+}
+/* @media screen and (min-width: 480px){
+	nav{
+		font-size: 2.5rem;
+	}
+	#imgone{
+		width: 250px;
+		float: right;
+	}
+} */
+@media screen and (min-width: 768px){
+	#imgone, #imgtwo, .imgthree{
+		/* float: right; */
+		max-width: 40%;
+	}
+}

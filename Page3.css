@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background: url(Image/25.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Rajdhani', sans-serif;
+}
+nav{
+  font-size: 1.5rem;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+}
+.btn-danger .btn-lg{
+  font-size: 1.4rem; 
+  color: white;
+}
+.login-page{
+  width: 370px;
+  /*padding: 10% 0 0;*/
+  margin: auto;
+  margin-top: 60px;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 360px;
+  margin-bottom: 40px;
+  padding: 45px;
+  text-align: center;
+  color: white;
+}
+.form input{
+  outline: 1px;
+  background: #f2f2f2;
+  width: 90%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.btn-danger{
+  font-size: 16px;
+  text-transform: uppercase;
+  outline: 0;
+  /*width: 80%;*/
+  /*border-radius: 45px;*/
+  cursor: pointer;
+}
+.btn-success{
+  font-size: 20px;
+  text-transform: uppercase;
+  outline: 0;
+  width: 80%;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.btn-success a{
+  color: white;
+  font-size: 1.4rem;
+}
+.form .message{
+  margin: 15px 0 0;
+  font-size: 15px;
+}
+.form .message a{
+  color: white;
+  text-decoration: none;
+   font-size: 20px;
+}
+.form p{
+  color: white;
+  font-size: 30px;
+}
+.form .register-form{
+  display: none;
+  color: white;
+}
+h3{
+    color: white;
+  font-weight: bold;
+}
+label{
+  color: white;
+  font-size: 20px;
+}
+#footer{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

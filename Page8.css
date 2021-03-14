@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+#logo{
+  height: 60px;
+  width: 140px;
+}
+.btn-lg{
+	font-size: 1.4rem; 
+	color: white;
+  }
+nav{
+  font-size: 1.5rem;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+h4{
+  text-align: center;
+  color: black;
+}
+.container #cocoa{
+  width: 100%;
+  /* height: 50vh; */
+}
+.container #demo{
+  width: 350px;
+  /* height: 60vh; */
+}
+.jumbotron{
+  width: 100%;
+  background-color: #FFA07A;
+}
+.img-area{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.single-img{
+  padding: 0px 20px 20px;
+}
+.single-img h6{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+}
+img:hover{
+  opacity: 0.5;
+  transition: 0.9s;
+}
+#img1, #img2, #img3{
+  width: 350px;
+}
+.content {
+	background-color: #F5F5F5;
+	padding: 20px 30px 30px;
+	margin: 20px;
+	text-align: center;
+  }
+  .content ul li{
+  list-style: none;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  }
+  .content ul li a{
+	color: #000;
+	font-size: 1.2rem;
+  }
+  h5, h6{
+	font-weight: bold;
+  }
+  .end{
+	text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  }
+  .fa{
+	align-items: center;
+  }
